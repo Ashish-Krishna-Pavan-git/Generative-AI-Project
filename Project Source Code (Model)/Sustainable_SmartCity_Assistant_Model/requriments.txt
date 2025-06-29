@@ -1,0 +1,8 @@
+streamlit
+transformers
+torch
+python-dotenv
+fpdf
+PyPDF2
+pandas
+scikit-learn

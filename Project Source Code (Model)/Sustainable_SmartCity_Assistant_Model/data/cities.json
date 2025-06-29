@@ -1,0 +1,190 @@
+{
+    "Seattle": {
+        "environment": {
+            "value": "42"
+        },
+        "traffic": {
+            "value": "Moderate"
+        },
+        "water": {
+            "value": "Good"
+        },
+        "energy": {
+            "value": "78%"
+        },
+        "waste": {
+            "value": "Low"
+        },
+        "safety": {
+            "value": "Safe"
+        },
+        "weather": {
+            "value": "Cloudy"
+        },
+        "feedback": {
+            "value": "Positive"
+        },
+        "health": {
+            "value": "Good"
+        }
+    },
+    "Mumbai": {
+        "environment": {
+            "value": "105"
+        },
+        "traffic": {
+            "value": "Heavy"
+        },
+        "water": {
+            "value": "Low"
+        },
+        "energy": {
+            "value": "89%"
+        },
+        "waste": {
+            "value": "High"
+        },
+        "safety": {
+            "value": "Moderate"
+        },
+        "weather": {
+            "value": "Humid"
+        },
+        "feedback": {
+            "value": "Mixed"
+        },
+        "health": {
+            "value": "Moderate"
+        }
+    },
+    "Hyderabad": {
+        "environment": {
+            "value": "85"
+        },
+        "traffic": {
+            "value": "Moderate"
+        },
+        "water": {
+            "value": "Moderate"
+        },
+        "energy": {
+            "value": "64%"
+        },
+        "waste": {
+            "value": "Medium"
+        },
+        "safety": {
+            "value": "Safe"
+        },
+        "weather": {
+            "value": "Sunny"
+        },
+        "feedback": {
+            "value": "Positive"
+        },
+        "health": {
+            "value": "Good"
+        }
+    },
+    "New York": {
+        "environment": {
+            "value": "180"
+        },
+        "traffic": {
+            "value": "Severe"
+        },
+        "water": {
+            "value": "Good"
+        },
+        "energy": {
+            "value": "92%"
+        },
+        "waste": {
+            "value": "High"
+        },
+        "safety": {
+            "value": "Moderate"
+        },
+        "weather": {
+            "value": "Rainy"
+        },
+        "feedback": {
+            "value": "Mixed"
+        },
+        "health": {
+            "value": "Moderate"
+        }
+    },
+    "Berlin": {
+        "environment": {
+            "value": "55"
+        },
+        "traffic": {
+            "value": "Light"
+        },
+        "water": {
+            "value": "Excellent"
+        },
+        "energy": {
+            "value": "68%"
+        },
+        "waste": {
+            "value": "Low"
+        },
+        "safety": {
+            "value": "Safe"
+        },
+        "weather": {
+            "value": "Clear"
+        },
+        "feedback": {
+            "value": "Positive"
+        },
+        "health": {
+            "value": "Good"
+        }
+    },
+    "Smartbridge": {
+        "environment": {
+            "value": "30",
+            "last_updated": "2025-06-29"
+        },
+        "energy": {
+            "value": "50%",
+            "last_updated": "2025-06-29"
+        },
+        "traffic": {
+            "value": "Low",
+            "last_updated": "2025-06-29"
+        },
+        "water": {
+            "value": "Good",
+            "last_updated": "2025-06-29"
+        },
+        "waste": {
+            "value": "Low",
+            "last_updated": "2025-06-29"
+        },
+        "weather": {
+            "value": "Sunny",
+            "last_updated": "2025-06-29"
+        },
+        "safety": {
+            "value": "Safe",
+            "last_updated": "2025-06-29"
+        },
+        "feedback": {
+            "value": "Positive",
+            "last_updated": "2025-06-29"
+        },
+        "health": {
+            "value": "Good",
+            "last_updated": "2025-06-29"
+        },
+        "alerts": {
+            "value": "N/A",
+            "last_updated": "2025-06-29"
+        },
+        "last_updated": "2025-06-29 15:49:16"
+    }
+}
