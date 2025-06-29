@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 HUGGINGFACE_HUB_TOKEN = os.getenv("HUGGINGFACE_HUB_TOKEN")
 MODEL_NAME = "ibm-granite/granite-3.3-2b-instruct"
-CITY_DATA_PATH = r"C:\Users\AKP\Desktop\AI\Sustainable_SmartCity_Assistant_Model\data\cities.json"
+CITY_DATA_PATH =r"#Enter Your data/Cities.json entire path path#"    #Example: r"C:\Users\AKP\Desktop\AI\Sustainable_SmartCity_Assistant_Model\data\cities.json"
 
 # === Load Granite Model ===
 def load_model():
