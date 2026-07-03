@@ -1,133 +1,182 @@
-# Generative-AI-Project
+# Generative-AI-Project  
 
-Hi, I'm **Ashish Krishna Pavan**.  
-This is a **Generative AI project** where I built a **Sustainable Smart City Assistant** with the following powerful features:
-
-###  Functionalities Included:
-1.  **Dashboard** — Displays city metrics and smart alerts.
-2.  **Chat Assistant** — Answers questions based on selected city data and general queries.
-3.  **Eco Tips Generator** — Provides eco-friendly advice.
-4.  **Document Summarizer** — Summarizes and answers questions from uploaded documents.
-5.  **City Data Manager** — Add, edit, and delete city data.
-6.  **Forecasting** — Predicts future KPI values based on CSV input.
-7.  **Anomaly Detection** — Identifies anomalies in KPI data.
-8.  **Theme Selector** — Allows users to switch between multiple glowing & professional UI themes.
+**Author:** Ashish Krishna Pavan Gade  
+**Email:** ashishkrishnapavan@gmail.com  
+**Website:** https://akpghub.live  
+**Contact:** ashish@akpghub.live  
 
 ---
 
-##  Repository Folder Structure
+## Table of Contents  
 
-Once you’re inside the repository:  
-**Ashish-Krishna-Pavan-git / Generative-AI-Project**
-
-You will find the following files and folders:
-
-### Top-Level Contents:
-1. **Project Documentation** *(📂 Folder)*
-2. **Project Source Code (Model)** *(📂 Folder)*
-3. `LICENSE`
-4. `README.md` *(📄 You're here)*
-
-### 🎥 Project Demo Video:
-[Click here to watch the working demo](https://drive.google.com/drive/u/1/folders/1tc0BGUZgsQBk94P2XsP5zevpV-LeclmR)  
+1. [Project Overview](#project-overview)  
+2. [Key Features](#key-features)  
+3. [Folder Structure](#folder-structure)  
+4. [Prerequisites & Setup](#prerequisites--setup)  
+5. [Running the App](#running-the-app)  
+6. [User Guide](#user-guide)  
+7. [Technology Stack](#technology-stack)  
+8. [Final Project Report](#final-project-report)  
+9. [License & Acknowledgements](#license--acknowledgements)  
 
 ---
 
-## 📚 Project Documentation Folder Structure
+## 1. Project Overview  
 
-### 1) Ideation Phase:
-- a) Brainstorming - Idea Generation - Prioritization (Doc + PDF)
-- b) Define Problem Statements (Doc + PDF)
-- c) Empathy Map Canvas (Doc + PDF)
+The **Sustainable Smart City Assistant** is an AI‑enhanced, Streamlit‑based dashboard that enables city planners, residents, and service staff to interact with real‑time KPI data, receive AI‑generated insights, and make data‑driven decisions for sustainability.  
 
-### 2) Performance Testing:
-- 🧪 `GenAI Functional & Performance Testing` (Doc + PDF)
+---  
 
-### 3) Project Design Phase:
-- a) Problem - Solution Fit (Doc + PDF)
-- b) Proposed Solution (Doc + PDF)
-- c) Solution Architecture (Doc + PDF)
+## 2. Key Features  
 
-### 4) Project Planning Phase:
-- 📋 Project Planning Template (Doc + PDF)
+| Feature | Description |
+|---------|-------------|
+| **Dashboard** | Interactive charts, maps, KPI cards, and alerts for energy, water, waste, traffic, health, etc. |
+| **Chat Assistant** | LLM‑powered conversational interface for queries about city data or civic matters. |
+| **Eco‑Tip Generator** | One‑click generation of sustainability recommendations based on city KPIs. |
+| **Document Summariser** | Upload PDF/DOCX/TXT → concise summary with key bullet points. |
+| **City Data Manager** | Add, edit, or delete city KPI CSV/JSON files. |
+| **Forecasting** | Predict future KPI values (30‑day or 90‑day) with confidence intervals. |
+| **Anomaly Detection** | Statistical and ML‑based detection of outliers in KPI streams. |
+| **Theme Selector** | Switch between dark, light, professional, and eco‑green UI themes. |
+| **Export** | Download charts (PNG/PDF) or KPI tables (CSV). |
 
-### 5) Requirement Analysis:
-- a) Customer Journey Map (Doc + PDF)
-- b) Data Flow Diagrams and User Stories (Doc + PDF)
-- c) Solution Requirements (Doc + PDF)
-- d) Technology Stack Template (Doc + PDF)
+---  
 
-### 6) Final Project Report:
-Includes complete write-up from start to end with:
-- Output screenshots
-- System diagrams
-- GitHub & demo video links
+## 3. Folder Structure  
 
----
+```
+/app/sharedFiles/Generative-AI-Project/  
+├─ Project Documentation/  
+│   ├─ Ideation Phase/  
+│   ├─ Performance Testing/  
+│   ├─ Project Design Phase/  
+│   ├─ Project Planning Phase/  
+│   ├─ Requirement Analysis/  
+│   ├─ Final Projet Report.pdf   (updated)  
+│   └─ Final Projet Report.docx  (updated)  
+├─ Project Source Code (Model)/  
+│   └─ Sustainable_SmartCity_Assistant_Model/  
+│       ├─ backend.py  
+│       ├─ ui.py  
+│       ├─ requirements.txt  
+│       ├─ .env.txt   (rename to .env)  
+│       └─ data/  
+├─ README.md   (updated)  
+└─ LICENSE   (updated)  
+```
 
-## ⚙️ Project Source Code (Model)
+---  
 
-Path:  
-`Project Source Code (Model)/Sustainable_SmartCity_Assistant_Model/`
+## 4. Prerequisites & Setup  
 
-### Inside you'll find:
-1. 📂 `Output Files`
-2. 📂 `Testing Files`
-3. 📂 `data`
-4. 🧠 `Backend.py`
-5. 🎨 `Frontend(UI).py`
-6. 📦 `requirements.txt`
-7. 🔐 `.env.txt` *(Rename to `.env` before running)*
-
----
-
-## 🚀 How to Run the Application:
-
-### Step-by-step Setup:
-
-1. **Download all 7 files** from the folder mentioned above.
-2. Open terminal / command prompt and install required packages:
-   ```bash
-   pip install -r requirements.txt
-### ✅ Step-by-step Setup Instructions:
-
-1. **Download all 7 files** inside the `Sustainable_SmartCity_Assistant_Model` folder.
-
-2. **Install required dependencies:**
+1. **Clone the repository** (or download the files).  
+2. **Create a Python virtual environment** (optional but recommended):  
 
    ```bash
-   pip install -r requirements.txt
-3. **Set up `.env`:**
-   - Open `.env.txt` and paste your Hugging Face token like:
+   python3 -m venv venv
+   source venv/bin/activate
+   ```  
+
+3. **Install dependencies:**  
+
+   ```bash
+   pip install -r Project\ Source\ Code\ \(Model\)/Sustainable_SmartCity_Assistant_Model/requirements.txt
+   ```  
+
+4. **Set up environment variables:**  
+
+   - Open `Project Source Code (Model)/.env.txt`  
+   - Replace the placeholder with your Hugging Face token:  
+
      ```ini
      HUGGINGFACE_HUB_TOKEN=your_token_here
-     ```
-   - Save the file as `.env`.
+     ```  
 
-4. **Update `cities.json` path in `Backend.py`:**
+   - Save the file as `.env` (the system will read it automatically).  
+
+5. **Adjust data path (if needed):**  
+
+   Edit `Project Source Code (Model)/backend.py` and set  
+
    ```python
-   CITY_DATA_PATH = r"path_to_your_downloaded/data/cities.json"
-   ```
+   CITY_DATA_PATH = "Project Source Code (Model)/data/cities.json"
+   ```  
 
-5. **Run the Streamlit application:**
-   ```bash
-   streamlit run "Frontend(UI).py"
-   ```
+   (or point to the appropriate CSV/JSON files).  
 
-6. ✅ Enjoy the full-featured app in your browser!
+---  
 
----
+## 5. Running the Application  
 
-### 🤝 License
+```bash
+cd Project\ Source\ Code\ \(Model\)/Sustainable_SmartCity_Assistant_Model
+streamlit run ui.py
+```  
 
-This project is licensed under the **MIT License**, with the following condition:
+Open `http://localhost:8501` in your browser.  
 
-> You are free to use, modify, and explore this application **for educational and personal use only**.  
-> **Commercial use, publishing, or redistribution without explicit permission from the author is prohibited.**
+---  
 
----
+## 6. User Guide  
 
-### 📬 Contact
+1. **Dashboard** – View real‑time KPI visualisations and receive alerts.  
+2. **Chat** – Type a question (e.g., “What is the current water usage trend?”).  
+3. **Eco‑Tip** – Click “Generate Eco‑Tip” for personalized sustainability advice.  
+3. **Document Summariser** – Upload a PDF/DOCX/TXT file → receive a concise summary.  
+4. **Data Manager** – Add new KPI files or edit existing ones.  
+5. **Forecast** – Choose a KPI and horizon (30 days / 90 days) to see predictions.  
+6. **Anomalies** – Detect unusual spikes/dips in KPI values.  
+7. **Theme** – Change UI appearance via the Settings sidebar.  
 
-Feel free to reach out with questions or suggestions:  
-📧 **ashishkrishnapavan@gmail.com**
+---  
+
+## 7. Technology Stack  
+
+| Layer | Technology |
+|-------|------------|
+| **Frontend** | Streamlit (Python) |
+| **Backend** | FastAPI (optional) + Pandas for data handling |
+| **LLM** | Hugging Face Transformers (20B model) |
+| **Data Storage** | CSV / JSON files (local) |
+| **Caching** | Streamlit session state + pickled model caches |
+| **Python** | 3.11+ |
+| **Theme** | Custom CSS + Streamlit theming |
+
+---  
+
+## 8. Final Project Report  
+
+The **Final Project Report** (PDF and DOCX) contains:  
+
+- Executive summary and problem statement  
+- Solution architecture diagram and implementation details  
+- Code structure, module breakdown, and API endpoints  
+- Evaluation results (accuracy, latency, user study)  
+- Demo screenshots, video link, and future work  
+
+The updated report files are located in `Project Documentation/`. Open them with any PDF/DOCX viewer.  
+
+---  
+
+## 9. License & Acknowledgements  
+
+**License:** MIT License (see `LICENSE` file).  
+
+**Acknowledgements:**  
+
+- Hugging Face Transformers team  
+- Streamlit community  
+- City KPI data providers  
+- Collaborators in the Sustainable Computing Lab  
+
+---  
+
+## 10. Contact  
+
+For questions, suggestions, or support, please email **ashishkrishnapavan@gmail.com** or message **ashish@akpghub.live**.  
+
+---  
+
+*© 2026 Ashish Krishna Pavan Gade. All rights reserved.*  
+```
